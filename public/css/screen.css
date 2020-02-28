@@ -1,0 +1,227 @@
+/*---------------------*/
+/*    HTML ELEMENTS    */
+/*---------------------*/
+body {
+    background: #e9eaed ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+   }
+
+h1 {
+    line-height: 150px;
+    line-height: 100px;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+/*---------------------*/
+/* CONTAINING ELEMENTS */
+/*---------------------*/
+
+header {
+    background-color: rgb(27, 42, 110);
+    margin-bottom: 50px;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*------------------------*/
+/* PAGE SPECIFIC ELEMENTS */
+/*------------------------*/
+header nav ul {
+    margin-bottom: 20px;
+    text-align: center;
+}
+header nav li {
+    display: inline;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 150%;
+    padding: 0 20px;
+}
+
+header nav li a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+header nav li a:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+header nav li a.active {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+#drankspelletjes form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+#drankspelletjes form label {
+    text-transform: lowercase;
+    margin-right: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#drankspelletjes form input {
+    display: inline-block;
+}
+
+#drankspelletjes .flexcontainer {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+#drankspelletjes article {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#drankspelletjes article h3 {
+    position: absolute;
+    top: 15px;
+    text-align: right;
+    background-color: rgb(27, 42, 110);
+    text-shadow: 2px 2px 2px #000000;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+#drankspelletjes article figcaption {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+#drankspelletjes article .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#drankspelletjes article p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+section .explanation {
+    background-color: rgb(27, 42, 110);
+    color: #FFFFFF;
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 45%;
+    background-color: #FFF;
+    border: 5px solid rgb(27, 42, 110);
+    padding: 20px;
+    width: 50%;}
+    #popup .close {
+      color: #FFF;
+      font-weight: bold;
+      background-color: rgb(27, 42, 110);
+      display: inline-block;
+      border-radius: 23px;
+      padding: 5px;
+      font-size: 0.8rem;
+      text-decoration: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translateX(50%) translateY(-50%);
+  
+}
+
+#popup .close:hover {
+    background-color: rgb(180, 40, 40);
+}
+
+#popup article {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#popup article h3 {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+    font-size: 2rem;;
+    font-weight: bold;
+}
+
+#popup article figure, #popup article .info {
+    flex: 1 1 auto;
+}
+
+#popup article figure {
+    margin-right: 5%;
+    max-width: 25%;
+}
+
+#popup article p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#popup article span {
+    font-weight: bold;
+}
+
+#popup article a {
+    margin-top: 20px;
+}
+
+.isBlurred {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+/* --- Home --- */
