@@ -27,7 +27,7 @@ function loadArticles() {
         container.innerHTML += `<article data-id="${drankspelletjes[i].toevoegingsdatum}">
                                     <h3>${drankspelletjes[i].naam}</h3>
                                     <figure>
-                                        <img src="images/${drankspelletjes[i].img}" alt="${drankspelletjes[i].naam}" title="${drankspelletjes[i].naam}"/>
+                                        <img src="assets/images/${drankspelletjes[i].img}" alt="${drankspelletjes[i].naam}" title="${drankspelletjes[i].naam}"/>
                                         <figcaption>
                                             ${drankspelletjes[i].categorie}
                                         </figcaption>

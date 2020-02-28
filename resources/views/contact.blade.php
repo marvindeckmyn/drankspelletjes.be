@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>drankspelletjes.be</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/reset.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/screen.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/reset.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/screen.css') }}" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
 
     <meta name="description" content="De leukste drankspelletjes"/>
