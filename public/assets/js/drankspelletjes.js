@@ -1,8 +1,12 @@
 "use strict";
 const ARTICLEPICTURE = "article img";
 const ARTICLELINK = "article a";
+const ARTICLETITLE = "article h3";
 const CLOSEPOPUP = ".close";
 const SEARCH = "input[type='search']";
+const HEADER = "header";
+const MAIN = "main";
+const FOOTER = "footer";
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -12,15 +16,23 @@ function init() {
 
     document.querySelectorAll(ARTICLEPICTURE).forEach(picture => {
         picture.addEventListener("click", getDetails);
-    })
+    });
 
     document.querySelectorAll(ARTICLELINK).forEach(link => {
         link.addEventListener("click", getDetails);
-    })
+    });
+
+    document.querySelectorAll(ARTICLETITLE).forEach(title => {
+        title.addEventListener("click", getDetails);
+    });
 
     document.querySelector(CLOSEPOPUP).addEventListener("click", closeDetails);
 
     document.querySelector(SEARCH).addEventListener("keyup", search);
+
+    document.querySelector(HEADER).addEventListener("click", clickOutsidePopup);
+    document.querySelector(MAIN).addEventListener("click", clickOutsidePopup);
+    document.querySelector(FOOTER).addEventListener("click", clickOutsidePopup);
 
 }
 
@@ -60,17 +72,16 @@ function addFilters() {
     document.querySelector("select[id='sortby']").value = "toevoegingsdatum";
 }
 
-function getDetails(e)
-{
+function getDetails(e) {
     e.preventDefault();
     let target = e.target;
     let articleCopy = target.closest("article").cloneNode(true);
     let popup = document.querySelector("#popup");
     if (popup.getAttribute("class") != "hidden") {
-        let articlePopup = popup.querySelector("article");
-        popup.removeChild(articlePopup);
+        closeDetails(e);
     }
 
+    else {
     //Artikel in popup plaatsen
     popup.appendChild(articleCopy);
 
@@ -97,10 +108,12 @@ function getDetails(e)
     let header = document.querySelector("header");
     main.className = "isBlurred";
     header.className = "isBlurred";
+
+    e.stopPropagation();
+    }
 }
 
-function closeDetails(e)
-{
+function closeDetails(e) {
     e.preventDefault();
     let close = document.querySelector(CLOSEPOPUP);
     let popup = close.closest("section");
@@ -117,8 +130,7 @@ function closeDetails(e)
     header.className = "";
 }
 
-function search(e)
-{
+function search(e) {
     e.preventDefault();
     let input = e.target;
     //ToUpperCase toegevoegd zodat de zoekopdracht niet hoofdlettergevoelig is
@@ -142,5 +154,14 @@ function search(e)
                 article[i].style.display = "none";
             }
         }
+    }
+}
+
+function clickOutsidePopup(e) {
+    e.preventDefault();
+    let close = document.querySelector(CLOSEPOPUP);
+    let popup = close.closest("section");
+    if (popup.className != "hidden") {
+        closeDetails(e);
     }
 }
