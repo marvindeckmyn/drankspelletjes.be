@@ -2,6 +2,7 @@
 const ARTICLEPICTURE = "article img";
 const ARTICLELINK = "article a";
 const CLOSEPOPUP = ".close";
+const SEARCH = "input[type='search']";
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -18,6 +19,9 @@ function init() {
     })
 
     document.querySelector(CLOSEPOPUP).addEventListener("click", closeDetails);
+
+    document.querySelector(SEARCH).addEventListener("keyup", search);
+
 }
 
 function loadArticles() {
@@ -111,4 +115,32 @@ function closeDetails(e)
     let header = document.querySelector("header");
     main.className = "";
     header.className = "";
+}
+
+function search(e)
+{
+    e.preventDefault();
+    let input = e.target;
+    //ToUpperCase toegevoegd zodat de zoekopdracht niet hoofdlettergevoelig is
+    let searchFilter = input.value.toUpperCase();
+    let article = document.querySelectorAll(".flexcontainer article");
+    
+    for(let i = 0;i < article.length; i++)
+    {
+        let articleName = article[i].getElementsByTagName("h3")[0];
+
+        if (articleName)
+        {
+            let textValue = articleName.textContent || articleName.innerHTML;
+
+            if (textValue.toUpperCase().indexOf(searchFilter) > -1)
+            {
+                article[i].style.display = "";
+            }
+            else
+            {
+                article[i].style.display = "none";
+            }
+        }
+    }
 }
