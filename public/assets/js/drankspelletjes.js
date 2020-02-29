@@ -81,10 +81,15 @@ function getDetails(e) {
     //Artikel in popup plaatsen
     popup.appendChild(articleCopy);
 
-    //Uitleg link verwijderen
-    let parentLink = document.querySelector("#popup .info");
+    //Uitleg link, categorie & aantal spelers verwijderen
+    let parent = document.querySelector("#popup .info");
+    let parentCategorie = document.querySelector("#popup figure");
     let link = document.querySelector("#popup .info a");
-    parentLink.removeChild(link);
+    let spelers = document.querySelector("#popup .info p");
+    let categorie = document.querySelector("#popup figure figcaption");
+    parent.removeChild(link);
+    parent.removeChild(spelers);
+    parentCategorie.removeChild(categorie);
 
     //Info in popup selecteren
     let info = popup.querySelector(".info");
@@ -94,6 +99,7 @@ function getDetails(e) {
     let index = article.getAttribute("data-id") - 1;
 
     //Details toevoegen
+
     info.innerHTML += `${drankspelletjes[index].uitleg}`;
 
     //Popup tonen

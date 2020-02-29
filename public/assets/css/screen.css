@@ -205,6 +205,7 @@ section .explanation {
 #popup article figure {
     margin-right: 5%;
     max-width: 25%;
+    margin-bottom: 20px;
 }
 
 #popup article p {
