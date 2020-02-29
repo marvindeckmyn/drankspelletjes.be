@@ -28,7 +28,8 @@
             <h2>Drankspelletjes</h2>
             <p>Meer dan 200 drankspelletjes om met je vrienden te spelen</p>
 
-            <form action="#" method="post" id="filters">
+            <form action="{{ action('DrankspelletjesController@showDrankspelletjes') }}" method="post" id="filters">
+                @csrf
                 <label for="search">Zoek </label><input type="search" name="search" id="search"/>
 
                 <label>Categorie

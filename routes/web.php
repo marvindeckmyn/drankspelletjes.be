@@ -13,3 +13,5 @@
 
 Route::get("/", "DrankspelletjesController@showDrankspelletjes");
 Route::get("/contact", "ContactController@showContact");
+
+Route::post("/", "DrankspelletjesController@search");
