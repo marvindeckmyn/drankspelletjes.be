@@ -17,7 +17,7 @@
         <h1><a href="../public">drankspelletjes.be</a></h1>
         <nav>
             <ul>
-                <li><a href="../public">Drankspelletjes</a></li>
+                <li><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}">Drankspelletjes</a></li>
                 <li><a href="#" class="active">Contact</a></li>
             </ul>
         </nav>

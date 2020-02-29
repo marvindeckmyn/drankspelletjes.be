@@ -12,3 +12,4 @@
 */
 
 Route::get("/", "DrankspelletjesController@showDrankspelletjes");
+Route::get("/contact", "ContactController@showContact");
