@@ -4,9 +4,7 @@ const ARTICLELINK = "article a";
 const ARTICLETITLE = "article h3";
 const CLOSEPOPUP = ".close";
 const SEARCH = "input[type='search']";
-const HEADER = "header";
 const MAIN = "main";
-const FOOTER = "footer";
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -30,9 +28,7 @@ function init() {
 
     document.querySelector(SEARCH).addEventListener("keyup", search);
 
-    document.querySelector(HEADER).addEventListener("click", clickOutsidePopup);
     document.querySelector(MAIN).addEventListener("click", clickOutsidePopup);
-    document.querySelector(FOOTER).addEventListener("click", clickOutsidePopup);
 
 }
 
