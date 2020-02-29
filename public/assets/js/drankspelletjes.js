@@ -59,10 +59,10 @@ function addFilters() {
     //Alfabetische volgorde
     filters.sort();
     for (const filter of filters) {
-        if (filter != "img" && filter != "uitleg") {
+        if (filter != "img" && filter != "uitleg" && filter != "benodigdheden") {
             document.querySelector("select[id='sortby']").innerHTML += `<option value="${filter}">${filter}</option>\n`;
         }
-    }
+    };
 
     //Standaardfilter veranderen naar toevoegingsdatum
     document.querySelector("select[id='sortby']").value = "toevoegingsdatum";
@@ -99,8 +99,21 @@ function getDetails(e) {
     let index = article.getAttribute("data-id") - 1;
 
     //Details toevoegen
-
     info.innerHTML += `${drankspelletjes[index].uitleg}`;
+
+    let mainInfo = document.createElement("div");
+    mainInfo.className = "mainInfo";
+    mainInfo.innerHTML += `<p><span>Categorie:</span> ${drankspelletjes[index].categorie}</p>
+                            <p><span>Minimum aantal spelers:</span> ${drankspelletjes[index].spelers}</p>
+                            <p><span>Benodigdheden:</span></p>
+                            <ul></ul>`;
+    info.parentNode.insertBefore(mainInfo, info);
+
+    let list = document.querySelector("#popup .mainInfo ul")
+
+    for (let i=0;i < drankspelletjes[index].benodigdheden.length; i++) {
+        list.innerHTML += `<li>${drankspelletjes[index].benodigdheden[i]}</li>`;
+    };
 
     //Popup tonen
     popup.classList.remove("hidden");

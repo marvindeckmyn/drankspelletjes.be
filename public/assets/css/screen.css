@@ -221,6 +221,12 @@ section .explanation {
     margin-top: 20px;
 }
 
+#popup article ul {
+    list-style-type: disc;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
 .isBlurred {
     filter: blur(2px);
     -webkit-filter: blur(2px);
