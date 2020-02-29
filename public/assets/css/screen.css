@@ -227,6 +227,10 @@ section .explanation {
     font-size: 1rem;
 }
 
+#popup article li {
+    margin-bottom: 10px;
+}
+
 .isBlurred {
     filter: blur(2px);
     -webkit-filter: blur(2px);
