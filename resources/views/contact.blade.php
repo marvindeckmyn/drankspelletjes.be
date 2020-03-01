@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="../public">drankspelletjes.be</a></h1>
+        <h1><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}">drankspelletjes.be</a></h1>
         <nav>
             <ul>
                 <li><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}">Drankspelletjes</a></li>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mexico - drankspelletjes.be</title>
+    <title>{{ $naam }} - drankspelletjes.be</title>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/reset.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/screen.css') }}" />
@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="#">drankspelletjes.be</a></h1>
+        <h1><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}">drankspelletjes.be</a></h1>
         <nav>
             <ul>
             <li><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}" class="active">Drankspelletjes</a></li>
@@ -25,7 +25,7 @@
     
     <main>
         <section>
-            <h2>Mexico</h2>
+            <h2>{{ $naam }}</h2>
         </section>
     </main>
 </body>

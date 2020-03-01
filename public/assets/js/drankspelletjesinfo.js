@@ -30,7 +30,7 @@ const drankspelletjes = [
     },
     {
         toevoegingsdatum: 4,
-        naam: "Ricard Petanque",
+        naam: "Ricard petanque",
         img: "ricardpetanque.jfif",
         categorie: "Balspel",
         spelers: 2,

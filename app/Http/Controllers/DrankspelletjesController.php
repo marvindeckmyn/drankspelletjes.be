@@ -11,7 +11,8 @@ class DrankspelletjesController extends Controller
     }
 
     function showSpelletje($spelletje) {
-        return view("drankspel");
+        $naam = ucfirst($spelletje);
+        return view("drankspel", ["naam" => $naam]);
     }
 
     function search(Request $request) {
