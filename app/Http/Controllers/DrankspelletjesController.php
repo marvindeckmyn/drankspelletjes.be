@@ -10,6 +10,10 @@ class DrankspelletjesController extends Controller
         return view("drankspelletjes");
     }
 
+    function showSpelletje($spelletje) {
+        return view("drankspel");
+    }
+
     function search(Request $request) {
         return view("drankspelletjes");
     }

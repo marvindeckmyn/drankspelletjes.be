@@ -16,10 +16,6 @@ function init() {
         picture.addEventListener("click", getDetails);
     });
 
-    document.querySelectorAll(ARTICLELINK).forEach(link => {
-        link.addEventListener("click", getDetails);
-    });
-
     document.querySelectorAll(ARTICLETITLE).forEach(title => {
         title.addEventListener("click", getDetails);
     });
@@ -27,8 +23,6 @@ function init() {
     document.querySelector(CLOSEPOPUP).addEventListener("click", closeDetails);
 
     document.querySelector(SEARCH).addEventListener("keyup", search);
-
-    document.querySelector(MAIN).addEventListener("click", clickOutsidePopup);
 
 }
 
@@ -46,10 +40,9 @@ function loadArticles() {
                                     </figure>
                                     <div class="info">
                                         <p><span>min. ${drankspelletjes[i].spelers} spelers</span></p>
-                                        <a href="#" class="explanation">Uitleg</a>
+                                        <a href="drankspelletjes/${drankspelletjes[i].naam.toLowerCase()}" class="explanation" target="_blank">Uitleg</a>
                                     </div>
                                 </article>`;
-        
     }
 }
 
@@ -124,6 +117,9 @@ function getDetails(e) {
     main.className = "isBlurred";
     header.className = "isBlurred";
 
+    //Als je buiten de popup klikt, gaat de popup weg
+    document.querySelector(MAIN).addEventListener("click", clickOutsidePopup);
+
     e.stopPropagation();
     }
 }
@@ -143,6 +139,9 @@ function closeDetails(e) {
     let header = document.querySelector("header");
     main.className = "";
     header.className = "";
+
+    //Deze event wordt verwijderd
+    document.querySelector(MAIN).removeEventListener("click", clickOutsidePopup);
 }
 
 function search(e) {
