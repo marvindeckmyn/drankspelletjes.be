@@ -5,6 +5,9 @@ const ARTICLETITLE = "article h3";
 const CLOSEPOPUP = ".close";
 const SEARCH = "input[type='search']";
 const MAIN = "main";
+const CATEGORY = "#category";
+const FILTER = "#sortby";
+const DIRECTION = "#direction";
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -23,6 +26,10 @@ function init() {
     document.querySelector(CLOSEPOPUP).addEventListener("click", closeDetails);
 
     document.querySelector(SEARCH).addEventListener("keyup", search);
+
+    document.querySelector(CATEGORY).addEventListener("click", sortGames);
+    document.querySelector(FILTER).addEventListener("click", sortGames);
+    document.querySelector(DIRECTION).addEventListener("click", sortGames);
 
 }
 
@@ -44,6 +51,12 @@ function loadArticles() {
                                     </div>
                                 </article>`;
     }
+}
+
+function clearArticles() {
+    let container = document.querySelector(".flexcontainer");
+
+    container.innerHTML = "";
 }
 
 function addFilters() {
@@ -178,4 +191,52 @@ function clickOutsidePopup(e) {
     if (popup.className != "hidden") {
         closeDetails(e);
     }
+}
+
+function sortGames(e) {
+    e.preventDefault();
+    let selectorCategory = document.querySelector(CATEGORY);
+    let selectorFilter = document.querySelector(FILTER);
+    let selectorDirection = document.querySelector(DIRECTION);
+
+    let sortedGames = drankspelletjes;
+
+    let sortCategory = selectorCategory[selectorCategory.selectedIndex].value;
+    let sortDirection = selectorDirection[selectorDirection.selectedIndex].value;
+    let sortFilter = selectorFilter[selectorFilter.selectedIndex].value;
+
+    sortedGames.sort(
+        function (a, b) {
+            if (sortDirection === "asc")
+            {
+                if (a[sortFilter] > b[sortFilter]) {
+                    return 1;
+                } else if (a[sortFilter] < b[sortFilter]) {
+                    return -1;
+                }
+                return 0;
+            }
+            else if (sortDirection === "desc")
+            {
+                if (a[sortFilter] < b[sortFilter]) {
+                    return 1;
+                } else if (a[sortFilter] > b[sortFilter]) {
+                    return -1;
+                }
+                return 0;
+            }
+        }
+    )
+
+    clearArticles();
+    loadArticles();
+
+    //Moet weer uitgevoerd worden, omdat er een nieuwe sortering is
+    document.querySelectorAll(ARTICLEPICTURE).forEach(picture => {
+        picture.addEventListener("click", getDetails);
+    });
+
+    document.querySelectorAll(ARTICLETITLE).forEach(title => {
+        title.addEventListener("click", getDetails);
+    });
 }
