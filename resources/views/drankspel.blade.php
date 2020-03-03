@@ -28,5 +28,8 @@
             <h2>{{ $naam }}</h2>
         </section>
     </main>
+
+    <script src="{{ asset('assets/js/drankspelletjesinfo.js') }}"></script>
+    <script src="{{ asset('assets/js/drankspel.js') }}"></script>
 </body>
 </html>
