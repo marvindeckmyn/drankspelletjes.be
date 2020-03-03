@@ -23,10 +23,14 @@
         </nav>
     </header>
     
-    <main>
-        <section>
-            <h2>{{ $naam }}</h2>
-        </section>
+    <main id="drank">
+        <div class="flexcontainer">
+            <section id="drankspel">
+                <h2>{{ $naam }}</h2>
+            </section>
+
+            <section id="uitleg"></section>
+        </div>
     </main>
 
     <script src="{{ asset('assets/js/drankspelletjesinfo.js') }}"></script>
