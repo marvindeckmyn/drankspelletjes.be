@@ -36,5 +36,14 @@ const drankspelletjes = [
         spelers: 2,
         uitleg: "<p><span>Uitleg</span></p><p><span>Ricard petanque</span> is eigenlijk heel eenvoudig. Je speelt een spelletje petanque/jeu de boules, zoals je het normaal zou spelen, maar met een kleine twist.</p><p>De winnaar mag immers een <span>ad fundum ricard</span> uitdelen en de verliezer moet er sowieso 1 nemen. Als je dit spel dus met 2 speelt, drinkt de verliezer telkens 2 ad fundums!</p>",
         benodigdheden: ["petanqueballen", "ricard"]
+    },
+    {
+        toevoegingsdatum: 5,
+        naam: "Bierviltje draaien",
+        img: "bierviltjedraaien.png",
+        categorie: "Kaartspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bierviltje draaien</span> is een heel eenvoudig spel. Voordat je met het spel begint, schrijft iedereen op meerdere bierkaartjes aan beide zijden een opdracht. Erna stapel je alle bierkaartjes op elkaar en schaffel je ze een beetje.</p><p>Vervolgens begin je met het spel. Elk team neemt op zijn beurt een bierkaartje en laat het spinnen op tafel. De opdracht die naar boven ligt wanneer het kaartje stopt met draaien, moet uitgevoerd worden door het team die het kaartje gedraaid heeft.</p><p><span>Voorbeelden voor opdrachten</span></p><p>Neem een ad fundum, zing een zelfverzonnen liedje, kus de persoon naast je op de wang, speel blad, steen, schaar en de verliezer drinkt een shotje enzovoort.</p>",
+        benodigdheden: ["bierviltjes/bierkaartjes/onderleggertjes", "balpen"]
     }
 ]
