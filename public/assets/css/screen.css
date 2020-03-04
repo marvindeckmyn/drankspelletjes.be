@@ -167,20 +167,21 @@ section .explanation {
     background-color: #FFF;
     border: 5px solid rgb(27, 42, 110);
     padding: 20px;
-    width: 50%;}
+    width: 50%;
+    height: 70%;
+    overflow: auto; }
     #popup .close {
       color: #FFF;
       font-weight: bold;
-      background-color: rgb(27, 42, 110);
+      background-color: rgb(170, 27, 22);
       display: inline-block;
       border-radius: 23px;
-      padding: 5px;
+      padding: 5px 10px;
       font-size: 0.8rem;
       text-decoration: none;
       position: absolute;
-      right: 0;
-      top: 0;
-      transform: translateX(50%) translateY(-50%);
+      right: 20px;
+      top: 20px;
   
 }
 
