@@ -25,8 +25,8 @@ const drankspelletjes = [
         img: "bierbowling.png",
         categorie: "Balspel",
         spelers: 2,
-        uitleg: "",
-        benodigdheden: [""]
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bierbowling</span> is helemaal niet zo ingewikkeld, maar kan voor grote problemen zorgen als je niet goed kan bowlen. Het is namelijk zo dat er <span>ad fundums</span> worden gehangen aan bepaalde prestaties of mislukkingen in het spel.</p><p><span>Mislukkingen en prestaties</span></p><ul><li>Wanneer je een strike gooit, mag je een ad fundum uitdelen.</li><li>Wanneer je een turkey (3 strikes na elkaar) gooit, moet iedereen een ad fundum nemen.</li><li>Gooi je in de goot (gutter), dan moet je zelf een ad fundum nemen.</li></ul>",
+        benodigdheden: ["bowlingbaan", "bowlingbal"]
     },
     {
         toevoegingsdatum: 4,
@@ -34,7 +34,7 @@ const drankspelletjes = [
         img: "ricardpetanque.jfif",
         categorie: "Balspel",
         spelers: 2,
-        uitleg: "",
-        benodigdheden: [""]
+        uitleg: "<p><span>Uitleg</span></p><p><span>Ricard petanque</span> is eigenlijk heel eenvoudig. Je speelt een spelletje petanque/jeu de boules, zoals je het normaal zou spelen, maar met een kleine twist.</p><p>De winnaar mag immers een <span>ad fundum ricard</span> uitdelen en de verliezer moet er sowieso 1 nemen. Als je dit spel dus met 2 speelt, drinkt de verliezer telkens 2 ad fundums!</p>",
+        benodigdheden: ["petanqueballen", "ricard"]
     }
 ]
