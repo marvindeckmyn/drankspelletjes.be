@@ -34,13 +34,13 @@
 
                 <label>Categorie
                     <select id="category" name="category">
-                        <option value="all">alle</option>
-                        <option value="cards">kaartspel</option>
-                        <option value="dice">dobbelspel</option>
-                        <option value="board">bordspel</option>
-                        <option value="guess">gokspel</option>
-                        <option value="ball">balspel</option>
-                        <option value="other">overig</option>
+                        <option value="alle">alle</option>
+                        <option value="kaartspel">kaartspel</option>
+                        <option value="dobbelspel">dobbelspel</option>
+                        <option value="bordspel">bordspel</option>
+                        <option value="gokspel">gokspel</option>
+                        <option value="balspel">balspel</option>
+                        <option value="overig">overig</option>
                     </select>
                 </label>
 
