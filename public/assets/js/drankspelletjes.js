@@ -27,7 +27,7 @@ function init() {
 
     document.querySelector(SEARCH).addEventListener("keyup", search);
 
-    document.querySelector(CATEGORY).addEventListener("click", sortGames);
+    document.querySelector(CATEGORY).addEventListener("click", sortInCategory);
     document.querySelector(FILTER).addEventListener("click", sortGames);
     document.querySelector(DIRECTION).addEventListener("click", sortGames);
 
@@ -41,9 +41,7 @@ function loadArticles() {
                                     <h3>${drankspelletjes[i].naam}</h3>
                                     <figure>
                                         <img src="assets/images/${drankspelletjes[i].img}" alt="${drankspelletjes[i].naam}" title="${drankspelletjes[i].naam}"/>
-                                        <figcaption>
-                                            ${drankspelletjes[i].categorie}
-                                        </figcaption>
+                                        <figcaption>${drankspelletjes[i].categorie}</figcaption>
                                     </figure>
                                     <div class="info">
                                         <p><span>min. ${drankspelletjes[i].spelers} spelers</span></p>
@@ -195,13 +193,11 @@ function clickOutsidePopup(e) {
 
 function sortGames(e) {
     e.preventDefault();
-    let selectorCategory = document.querySelector(CATEGORY);
     let selectorFilter = document.querySelector(FILTER);
     let selectorDirection = document.querySelector(DIRECTION);
 
     let sortedGames = drankspelletjes;
 
-    let sortCategory = selectorCategory[selectorCategory.selectedIndex].value;
     let sortDirection = selectorDirection[selectorDirection.selectedIndex].value;
     let sortFilter = selectorFilter[selectorFilter.selectedIndex].value;
 
@@ -239,4 +235,36 @@ function sortGames(e) {
     document.querySelectorAll(ARTICLETITLE).forEach(title => {
         title.addEventListener("click", getDetails);
     });
+
+    sortInCategory(e);
+}
+
+function sortInCategory(e) {
+    e.preventDefault();
+    let selectorCategory = document.querySelector(CATEGORY);
+    let sortCategory = selectorCategory[selectorCategory.selectedIndex].value;
+
+    let article = document.querySelectorAll(".flexcontainer article");
+    for(let i = 0;i < article.length; i++)
+    {
+        let articleCategory = article[i].getElementsByTagName("figcaption")[0];
+
+        if (articleCategory)
+        {
+            let textValue = articleCategory.textContent || articleCategory.innerHTML;
+
+            if (sortCategory.toUpperCase() == "ALLE")
+            {
+                article[i].style.display = "";
+            }
+            else if (sortCategory.toUpperCase() == textValue.toUpperCase())
+            {
+                article[i].style.display = "";
+            }
+            else
+            {
+                article[i].style.display = "none";
+            }
+        }
+    }
 }
