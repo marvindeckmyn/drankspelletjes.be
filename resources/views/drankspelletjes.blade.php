@@ -26,7 +26,7 @@
     <main>
         <section id="drankspelletjes">
             <h2>Drankspelletjes</h2>
-            <p>Meer dan 200 drankspelletjes om met je vrienden te spelen</p>
+            <p id="aantalSpelletjes"></p>
 
             <form action="{{ action('DrankspelletjesController@showDrankspelletjes') }}" method="post" id="filters">
                 @csrf

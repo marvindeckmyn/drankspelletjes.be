@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
     loadArticles();
     addFilters();
+    showAmount();
 
     document.querySelectorAll(ARTICLEPICTURE).forEach(picture => {
         picture.addEventListener("click", getDetails);
@@ -31,6 +32,12 @@ function init() {
     document.querySelector(FILTER).addEventListener("click", sortGames);
     document.querySelector(DIRECTION).addEventListener("click", sortGames);
 
+}
+
+function showAmount() {
+    let aantalTitel = document.querySelector("#aantalSpelletjes");
+
+    aantalTitel.innerHTML = `${drankspelletjes.length} drankspelletjes om met je vrienden te spelen`;
 }
 
 function loadArticles() {
@@ -63,7 +70,7 @@ function addFilters() {
     //Alfabetische volgorde
     filters.sort();
     for (const filter of filters) {
-        if (filter != "img" && filter != "uitleg" && filter != "benodigdheden") {
+        if (filter != "img" && filter != "uitleg" && filter != "benodigdheden" && filter != "credits") {
             document.querySelector("select[id='sortby']").innerHTML += `<option value="${filter}">${filter}</option>\n`;
         }
     };
@@ -121,7 +128,7 @@ function getDetails(e) {
 
     let credits = document.createElement("div");
     credits.className = "credits";
-    credits.innerHTML += `<p><span>Credits:</span> Marvin</p>`;
+    credits.innerHTML += `<p><span>Credits:</span> ${drankspelletjes[index].credits}</p>`;
     info.parentNode.insertBefore(credits, info);
 
     //Popup tonen
