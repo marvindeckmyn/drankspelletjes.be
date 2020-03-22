@@ -253,6 +253,7 @@ section .explanation:hover {
     list-style-type: disc;
     margin-left: 50px;
     font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 #popup article li,

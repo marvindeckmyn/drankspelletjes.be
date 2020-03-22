@@ -26,7 +26,8 @@ function loadGameInfo() {
                           <p><span>Categorie:</span> ${drankspelletjes[index].categorie}</p>
                           <p><span>Minimum aantal spelers:</span> ${drankspelletjes[index].spelers}</p>
                           <p><span>Benodigdheden:</span></p>
-                          <ul></ul>`;
+                          <ul></ul>
+                          <p><span>Credits:</span> ${drankspelletjes[index].credits}</p>`;
 
     let list = document.querySelector("#drankspel ul")
 
