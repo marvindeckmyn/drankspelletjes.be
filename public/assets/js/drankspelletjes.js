@@ -113,6 +113,7 @@ function getDetails(e) {
     let index = article.getAttribute("data-id") - 1;
 
     //Details toevoegen
+    info.innerHTML += `<p><span>Credits:</span> ${drankspelletjes[index].credits}</p><br>`;
     info.innerHTML += `${drankspelletjes[index].uitleg}`;
 
     let mainInfo = document.createElement("div");
@@ -128,11 +129,6 @@ function getDetails(e) {
     for (let i=0;i < drankspelletjes[index].benodigdheden.length; i++) {
         list.innerHTML += `<li>${drankspelletjes[index].benodigdheden[i]}</li>`;
     };
-
-    let credits = document.createElement("div");
-    credits.className = "credits";
-    credits.innerHTML += `<p><span>Credits:</span> ${drankspelletjes[index].credits}</p>`;
-    info.parentNode.insertBefore(credits, info);
 
     //Popup tonen
     popup.classList.remove("hidden");
