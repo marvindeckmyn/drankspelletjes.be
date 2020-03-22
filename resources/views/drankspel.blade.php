@@ -18,7 +18,7 @@
         <nav>
             <ul>
             <li><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}" class="active">Drankspelletjes</a></li>
-            <li><a href="{{ action('ContactController@showContact') }}">Contact</a></li>
+            <li><a href="{{ action('MaakController@showMaakJeEigenDrankspelletje') }}">Maak je eigen drankspelletje</a></li>
             </ul>
         </nav>
     </header>

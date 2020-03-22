@@ -51,7 +51,7 @@ header {
 }
 
 section#drankspelletjes,
-section#contact {
+section#eigenDrankspelletje {
     width: 80%;
     margin: 0 auto;
 }
@@ -219,6 +219,10 @@ section .explanation:hover {
 
 #popup article figure, #popup article .mainInfo {
     margin-right: 20px;
+}
+
+#popup article .mainInfo {
+    margin-right: 30px;
 }
 
 #popup article figure,

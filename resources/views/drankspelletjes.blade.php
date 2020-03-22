@@ -18,7 +18,7 @@
         <nav>
             <ul>
                 <li><a href="#" class="active">Drankspelletjes</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="maakjeeigendrankspelletje">Maak je eigen drankspelletje</a></li>
             </ul>
         </nav>
     </header>
