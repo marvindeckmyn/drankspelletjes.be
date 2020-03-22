@@ -13,5 +13,5 @@
 
 Route::get("/", "DrankspelletjesController@showDrankspelletjes");
 Route::get("/drankspelletjes/{spelletje}", "DrankspelletjesController@showSpelletje");
-
 Route::get("/maakjeeigendrankspelletje", "MaakController@showMaakJeEigenDrankspelletje");
+Route::get("/login", "LoginController@showLogin");

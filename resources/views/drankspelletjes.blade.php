@@ -73,6 +73,7 @@
         <a href="#" class="close">X</a>
     </section>
 
+<script src="{{ asset('assets/js/script.js') }}"></script>
 <script src="{{ asset('assets/js/drankspelletjesinfo.js') }}"></script>
 <script src="{{ asset('assets/js/drankspelletjes.js') }}"></script>
 </body>

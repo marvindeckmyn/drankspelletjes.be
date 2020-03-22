@@ -53,9 +53,14 @@ header {
 }
 
 section#drankspelletjes,
-section#eigenDrankspelletje {
+section#eigenDrankspelletje,
+section#login {
     width: 80%;
     margin: 0 auto;
+}
+
+section#login {
+    text-align: center;
 }
 
 /*------------------------*/
@@ -295,7 +300,52 @@ section .explanation:hover {
     padding-top: 60px;
 }
 
-#login:hover {
+span#login:hover {
     background-color: rgb(238, 237, 237);
+    cursor: pointer;
 }
+
+section#login label {
+    display: block;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    margin-bottom: 5px;
+}
+
+section#login input {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(27, 42, 110);
+    padding: 5px 10px;
+}
+
+section#login input:focus {
+    outline: none;
+}
+
+section#login input[type="submit"],
+section#login input[type="button"] {
+    background-color: rgb(27, 42, 110);
+    color: #FFFFFF;
+    padding: 10px 40px;
+    font-size: 1rem;
+}
+
+section#login input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+section#login p {
+    font-size: 1rem;
+}
+
+section#login form {
+    margin-bottom: 30px;
+}
+
+h2#geenAccount {
+    font-size: 2rem;
+}
+
 /* --- Home --- */

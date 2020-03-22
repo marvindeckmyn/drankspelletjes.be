@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maak je eigen drankspelletje - drankspelletjes.be</title>
+    <title>Log in - drankspelletjes.be</title>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/reset.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/screen.css') }}" />
@@ -18,16 +18,31 @@
         <nav>
             <ul>
                 <li><a href="{{ action('DrankspelletjesController@showDrankspelletjes') }}">Drankspelletjes</a></li>
-                <li><a href="#" class="active">Maak je eigen drankspelletje</a></li>
+                <li><a href="{{ action('MaakController@showMaakJeEigenDrankspelletje') }}">Maak je eigen drankspelletje</a></li>
             </ul>
         </nav>
         <span id="login">Log in</span>
     </header>
 
     <main>
-        <section id="eigenDrankspelletje">
-            <h2>Maak je eigen drankspelletje!</h2>
-            <p>Heb je een zelfgemaakte drankspelletje of weet je een drankspelletje dat nog niet op onze site staat? Die kan je hier insturen en als deze goedgekeurd is, staat die op de site met jouw naam in de credits!</p>
+        <section id="login">
+            <h2>Log in</h2>
+
+            <form method="post" action="#">
+                @csrf
+                <label for="gebruikersnaam">Gebruikersnaam</label>
+                <input type="text" id="gebruikersnaam" name="gebruikersnaam" required>
+
+                <label for="wachtwoord">Wachtwoord</label>
+                <input type="text" id="wachtwoord" name="wachtwoord" required><br>
+
+                <input type="submit" value="Log in">
+                <p>Wachtwoord vergeten?</p>
+            </form>
+
+            <h2 id="geenAccount">Geen account?</h2>
+            <input type="button" value="Registreer">
+
         </section>
     </main>
 
