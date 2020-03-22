@@ -21,7 +21,7 @@
                 <li><a href="#" class="active">Maak je eigen drankspelletje</a></li>
             </ul>
         </nav>
-        <span>Log in</span>
+        <span id="login">Log in</span>
     </header>
 
     <main>

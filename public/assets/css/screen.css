@@ -294,4 +294,8 @@ section .explanation:hover {
     padding-left: 50px;
     padding-top: 60px;
 }
+
+#login:hover {
+    background-color: rgb(238, 237, 237);
+}
 /* --- Home --- */
