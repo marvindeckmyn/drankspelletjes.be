@@ -201,14 +201,12 @@ section .explanation {
     font-weight: bold;
 }
 
-#popup article figure, #popup article .info {
-    flex: 1 1 auto;
+#popup article figure, #popup article .mainInfo {
+    margin-right: 20px;
 }
 
 #popup article figure,
 #drankspel figure {
-    margin-right: 5%;
-    max-width: 35%;
     margin-bottom: 20px;
 }
 
@@ -230,12 +228,7 @@ section .explanation {
 }
 
 #popup article ul,
-#drankspel ul {
-    list-style-type: disc;
-    margin-left: 50px;
-    font-size: 1rem;
-}
-
+#drankspel ul, 
 #uitleg ul {
     list-style-type: disc;
     margin-left: 50px;

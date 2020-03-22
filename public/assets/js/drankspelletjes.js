@@ -119,6 +119,11 @@ function getDetails(e) {
         list.innerHTML += `<li>${drankspelletjes[index].benodigdheden[i]}</li>`;
     };
 
+    let credits = document.createElement("div");
+    credits.className = "credits";
+    credits.innerHTML += `<p><span>Credits:</span> Marvin</p>`;
+    info.parentNode.insertBefore(credits, info);
+
     //Popup tonen
     popup.classList.remove("hidden");
 
