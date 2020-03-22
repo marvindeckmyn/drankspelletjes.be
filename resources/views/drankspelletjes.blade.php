@@ -28,7 +28,11 @@
             <h2>Drankspelletjes</h2>
             <p id="aantalSpelletjes"></p>
 
-            <form action="{{ action('DrankspelletjesController@showDrankspelletjes') }}" method="post" id="filters">
+            @isset($search)
+                <h3>test</h3>
+            @endisset
+
+            <form action="#" method="post" id="filters">
                 @csrf
                 <label for="search">Zoek </label><input type="search" name="search" id="search"/>
 

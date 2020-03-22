@@ -16,6 +16,8 @@ class DrankspelletjesController extends Controller
     }
 
     function search(Request $request) {
-        return view("drankspelletjes");
+        $search = $request -> input("search");
+
+        return view("drankspelletjes", ["search" => $search]);
     }
 }

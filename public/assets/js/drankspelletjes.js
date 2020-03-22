@@ -8,6 +8,7 @@ const MAIN = "main";
 const CATEGORY = "#category";
 const FILTER = "#sortby";
 const DIRECTION = "#direction";
+const SEARCHFORM = "#filters";
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -31,6 +32,8 @@ function init() {
     document.querySelector(CATEGORY).addEventListener("click", sortInCategory);
     document.querySelector(FILTER).addEventListener("click", sortGames);
     document.querySelector(DIRECTION).addEventListener("click", sortGames);
+
+    document.querySelector(SEARCHFORM).addEventListener("submit", disablePost);
 
 }
 
@@ -279,4 +282,8 @@ function sortInCategory(e) {
             }
         }
     }
+}
+
+function disablePost(e) {
+    e.preventDefault();
 }
