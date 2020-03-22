@@ -21,6 +21,7 @@
             <li><a href="{{ action('MaakController@showMaakJeEigenDrankspelletje') }}">Maak je eigen drankspelletje</a></li>
             </ul>
         </nav>
+        <span>Log in</span>
     </header>
     
     <main id="drank">

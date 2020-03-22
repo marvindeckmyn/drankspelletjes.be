@@ -48,6 +48,8 @@ img {
 header {
     background-color: rgb(27, 42, 110);
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 section#drankspelletjes,
@@ -59,9 +61,19 @@ section#eigenDrankspelletje {
 /*------------------------*/
 /* PAGE SPECIFIC ELEMENTS */
 /*------------------------*/
-header nav ul {
+header span {
+    color: rgb(27, 42, 110);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FFFFFF;
     margin-bottom: 20px;
-    text-align: center;
+    border-radius: 30px;
+}
+
+header nav ul {
+    margin-top: 40px;
 }
 header nav li {
     display: inline;
