@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in - drankspelletjes.be</title>
+    <title>Registratie - drankspelletjes.be</title>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/reset.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/screen.css') }}" />
@@ -25,23 +25,31 @@
     </header>
 
     <main>
-        <section id="login">
-            <h2>Log in</h2>
+        <section id="registratie">
+            <h2>Registratie</h2>
 
             <form method="post" action="#">
                 @csrf
+                <label for="naam">Volledige naam</label>
+                <input type="text" id="naam" name="name" required>
+
+                <label for="email">E-mailadres</label>
+                <input type="email" id="email" name="email" required>
+
                 <label for="gebruikersnaam">Gebruikersnaam</label>
                 <input type="text" id="gebruikersnaam" name="gebruikersnaam" required>
 
                 <label for="wachtwoord">Wachtwoord</label>
-                <input type="text" id="wachtwoord" name="wachtwoord" required><br>
+                <input type="password" id="wachtwoord" name="wachtwoord" required>
 
-                <input type="submit" value="Log in">
-                <p>Wachtwoord vergeten?</p>
+                <label for="wachtwoordbevestigen">Wachtwoord bevestigen</label>
+                <input type="password" id="wachtwoordbevestigen" name="wachtwoordbevestigen" required><br>
+
+                <input type="submit" value="Registreer">
             </form>
 
-            <h2 id="geenAccount">Geen account?</h2>
-            <a href="{{ action('RegistratieController@showRegistratie') }}"><input type="button" value="Registreer"></a>
+            <h2 id="geenAccount">Heb je al een account?</h2>
+            <a href="{{ action('LoginController@showLogin') }}"><input type="button" value="Log in"></a>
 
         </section>
     </main>

@@ -59,7 +59,8 @@ section#login {
     margin: 0 auto;
 }
 
-section#login {
+section#login, 
+section#registratie {
     text-align: center;
 }
 
@@ -305,14 +306,16 @@ span#login:hover {
     cursor: pointer;
 }
 
-section#login label {
+section#login label,
+section#registratie label {
     display: block;
     font-weight: bold;
     color: rgb(68, 68, 68);
     margin-bottom: 5px;
 }
 
-section#login input {
+section#login input,
+section#registratie input {
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -320,27 +323,35 @@ section#login input {
     padding: 5px 10px;
 }
 
-section#login input:focus {
+section#login input:focus,
+section#registratie input:focus {
     outline: none;
 }
 
 section#login input[type="submit"],
-section#login input[type="button"] {
+section#registratie input[type="submit"],
+section#login input[type="button"],
+section#registratie input[type="button"] {
     background-color: rgb(27, 42, 110);
     color: #FFFFFF;
     padding: 10px 40px;
     font-size: 1rem;
 }
 
-section#login input[type="submit"]:hover {
+section#login input[type="submit"]:hover,
+section#registratie input[type="submit"]:hover,
+section#login input[type="button"]:hover,
+section#registratie input[type="button"]:hover {
     cursor: pointer;
 }
 
-section#login p {
+section#login p,
+section#registratie p {
     font-size: 1rem;
 }
 
-section#login form {
+section#login form,
+section#registratie form {
     margin-bottom: 30px;
 }
 
