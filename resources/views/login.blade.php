@@ -34,7 +34,7 @@
                 <input type="text" id="gebruikersnaam" name="gebruikersnaam" required>
 
                 <label for="wachtwoord">Wachtwoord</label>
-                <input type="text" id="wachtwoord" name="wachtwoord" required><br>
+                <input type="password" id="wachtwoord" name="wachtwoord" required><br>
 
                 <input type="submit" value="Log in">
                 <p>Wachtwoord vergeten?</p>
