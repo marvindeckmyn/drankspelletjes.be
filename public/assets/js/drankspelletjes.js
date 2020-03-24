@@ -73,7 +73,7 @@ function addFilters() {
     //Alfabetische volgorde
     filters.sort();
     for (const filter of filters) {
-        if (filter != "img" && filter != "uitleg" && filter != "benodigdheden" && filter != "credits") {
+        if (filter != "img" && filter != "uitleg" && filter != "benodigdheden" && filter != "credits" && filter != "alias") {
             document.querySelector("select[id='sortby']").innerHTML += `<option value="${filter}">${filter}</option>\n`;
         }
     };
@@ -118,6 +118,9 @@ function getDetails(e) {
 
     let mainInfo = document.createElement("div");
     mainInfo.className = "mainInfo";
+    if (drankspelletjes[index].alias !== "") {
+        mainInfo.innerHTML += `<p><span>Alias:</span> ${drankspelletjes[index].alias}</p>`
+    }
     mainInfo.innerHTML += `<p><span>Categorie:</span> ${drankspelletjes[index].categorie}</p>
                             <p><span>Minimum aantal spelers:</span> ${drankspelletjes[index].spelers}</p>
                             <p><span>Benodigdheden:</span></p>
