@@ -28,10 +28,10 @@
         <section id="registratie">
             <h2>Registratie</h2>
 
-            <form method="post" action="#">
+            <form onsubmit="return validateForm();" method="post" action="{{ route('register-user') }}">
                 @csrf
                 <label for="naam">Volledige naam</label>
-                <input type="text" id="naam" name="name" required>
+                <input type="text" id="naam" name="naam" required>
 
                 <label for="email">E-mailadres</label>
                 <input type="email" id="email" name="email" required>
@@ -45,7 +45,12 @@
                 <label for="wachtwoordbevestigen">Wachtwoord bevestigen</label>
                 <input type="password" id="wachtwoordbevestigen" name="wachtwoordbevestigen" required><br>
 
+                <input type="checkbox" id="leeftijd" name="leeftijd" value="leeftijd" required>
+                <label for="leeftijd">Ja, ik ben 16 jaar oud of ouder</label>
+
                 <input type="submit" value="Registreer">
+
+                <label for="foutmeldingusername"></label>
             </form>
 
             <h2 id="geenAccount">Heb je al een account?</h2>
@@ -55,5 +60,6 @@
     </main>
 
 <script src="{{ asset('assets/js/script.js') }}"></script>
+<script src="{{ asset('assets/js/register.js') }}"></script>
 </body>
 </html>

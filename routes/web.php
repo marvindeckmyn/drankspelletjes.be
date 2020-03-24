@@ -16,3 +16,5 @@ Route::get("/drankspelletjes/{spelletje}", "DrankspelletjesController@showSpelle
 Route::get("/maakjeeigendrankspelletje", "MaakController@showMaakJeEigenDrankspelletje");
 Route::get("/login", "LoginController@showLogin");
 Route::get("/registratie", "RegistratieController@showRegistratie");
+
+Route::post("/registratie", "RegistratieController@registerUser") -> name("register-user");

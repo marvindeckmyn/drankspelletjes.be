@@ -338,6 +338,10 @@ section#registratie input[type="button"] {
     font-size: 1rem;
 }
 
+section#registratie input[type="submit"] {
+    display: block;
+}
+
 section#login input[type="submit"]:hover,
 section#registratie input[type="submit"]:hover,
 section#login input[type="button"]:hover,
@@ -353,6 +357,18 @@ section#registratie p {
 section#login form,
 section#registratie form {
     margin-bottom: 30px;
+}
+
+section#registratie label[for="leeftijd"] {
+    display: initial;
+}
+
+section#registratie label[for="foutmeldingusername"] {
+    color: rgb(170, 27, 22);
+}
+
+section#registratie input[type="checkbox"] {
+    background-color: #FFFFFF;
 }
 
 h2#geenAccount {
