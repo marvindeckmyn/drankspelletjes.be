@@ -88,5 +88,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Om <span>Bullshit</span> te spelen, moet je eerst alle kaarten van een pak verdelen onder alle spelers. Vervolgens mag de speler met de meeste azen beginnen. Indien er meerdere zijn met evenveel azen, kan je beslissen wie begint met kop of munt/blad, steen, schaar.</p><p>De speler die begint, legt al zijn azen op tafel en de rest van het spel begint dan kloksgewijs. De volgende mag dan de kaart leggen die hoger is dan de vorige kaart, in dit geval een 2. Dit mogen meerdere 2's zijn, indien de speler hierover beschikt. Het speciale aan dit spel is dat de speler de kaart(en) niet (direct) moet tonen, maar deze omgekeerd na de vorige kaar legt.</p><p>Het is toegestaan in dit spel om te liegen, maar wel met een risico. Indien een andere speler je ervan vermoedt niet de juiste kaarten te hebben neergelegd, mag deze <span>bullshit</span> roepen en moet je je kaarten omdraaien</p><p><span>Hier wordt het interessant.</span> Indien je wel de juiste kaarten hebt neergelegd (dus bijvoorbeeld 3 keer een 7 na een 6), moet de aanklager een ad fundum nemen. Indien je betrapt wordt op liegen, moet je er zelf 1 nemen.</p><p>De speler die als eerste al zijn kaarten kwijt is, wint en mag de verliezers nog een laatste ad fundum laten nemen.</p><br><p><span>Extra</span></p><ul><li>Je mag ad fundums vervangen met shotjes of slokjes</li><li>Je moet de rest niet laten weten dat je nog maar 1 kaart hebt (zoals in UNO)</li><li>Je kan het interessanter maken door meerdere pakken kaarten door elkaar te schudden, waardoor er een grotere kans is op ongeloofwaardige combinaties</li>",
         benodigdheden: ["een kaartspel"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 9,
+        naam: "De grootste kans",
+        img: "degrootstekans.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p><span>De grootste kans</span> is een vrij eenvoudig spel. Je kiest eerst een speler die begint en gaat dan kloksgewijs verder. Jullie zeggen om de beurt: 'De grootste kans om...', gevolgd door iets beschamends of ridicuuls wat iemand van de groep ooit nog zou kunnen doen.</p><p>Vervolgens tel je af en wijs je allemaal tegelijk naar de persoon van wie je denkt dat hij/zij de grootste kans heeft om dat ooit te doen/zijn. Hij/zij die door de meeste deelnemers wordt aangewezen, moet een slokje nemen.</p><br><p><span>Voorbeeld</span></p><p>Speler A begint en zegt: 'De grootste kans om ooit een stripclub binnen te wandelen'. Vervolgens telt speler A af en wijzen de speler A, B en C naar iemand. A en B wijzen naar C en C wijst naar B. Dit betekent dat C de grootste kans heeft en dus moet drinken. Santé!</p>",
+        benodigdheden: ["drank"],
+        credits: "Andrew"
     }
 ]
