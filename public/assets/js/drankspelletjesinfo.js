@@ -165,5 +165,27 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Vingeren</span> is enorm simplistisch, maar ook enorm leuk om te spelen. Je legt met alle spelers elk 1 vinger op de rand van het glas en dan kan je beginnen.</p><p>Om de beurt mag 1 van de spelers aftellen en dan een getal roepen. Iedereen beslist net voordat het getal geroepen wordt om zijn/haar vinger op het glas te houden of weg te trekken. Als het geroepen getal gelijk is aan het aantal vingers dat nog op het glas ligt, is degene die het getal riep, vrijgesteld.</p><p>Je speelt dit verder tot er nog 1 persoon over is, die dan als verliezer de volledige inhoud van het glas in 1 keer moet leegdrinken, AD FUNDUM!</p>",
         benodigdheden: ["gevulde glas"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 16,
+        naam: "Picolo",
+        img: "picolo.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Picolo</span> is een applicatie die je kan downloaden via de Play Store of App Store.</p><p>Je geeft gewoon de naam in van elke deelnemer en vervolgens word je door het spel geleid. Er zijn verschillende leuke opdrachten die variatie in het spel houden.</p><p>Perfect om een leuke avond mee te starten!</p>",
+        benodigdheden: ["smartphone", "de app picolo"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 17,
+        naam: "Bier estafette",
+        img: "bierestafette.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bier estafette</span> is gelijkaardig aan andere estafettes.</p><p>Je verdeelt alle deelnemers in 2 of meer groepen en je probeert vervolgens per groep zo snel mogelijk bepaalde opdrachten te voltooien.</p><p>Opdrachten bij een bierestafette kunnen dingen zijn zoals om de beurt een pint ad fundum drinken of een shotje drinken en zo als eerste klaar zijn. Een andere optie is elk team een kan gevuld met bier geven en deze vervolgens zo snel mogelijk leegdrinken met je team.</p><p>Het winnende team kiest het volgende spel!</p>",
+        benodigdheden: ["drank"],
+        credits: "Andrew"
     }
 ]
