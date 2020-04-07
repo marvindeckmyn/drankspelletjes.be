@@ -99,5 +99,27 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>De grootste kans</span> is een vrij eenvoudig spel. Je kiest eerst een speler die begint en gaat dan kloksgewijs verder. Jullie zeggen om de beurt: 'De grootste kans om...', gevolgd door iets beschamends of ridicuuls wat iemand van de groep ooit nog zou kunnen doen.</p><p>Vervolgens tel je af en wijs je allemaal tegelijk naar de persoon van wie je denkt dat hij/zij de grootste kans heeft om dat ooit te doen/zijn. Hij/zij die door de meeste deelnemers wordt aangewezen, moet een slokje nemen.</p><br><p><span>Voorbeeld</span></p><p>Speler A begint en zegt: 'De grootste kans om ooit een stripclub binnen te wandelen'. Vervolgens telt speler A af en wijzen de speler A, B en C naar iemand. A en B wijzen naar C en C wijst naar B. Dit betekent dat C de grootste kans heeft en dus moet drinken. Santé!</p>",
         benodigdheden: ["drank"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 10,
+        naam: "Tornado",
+        img: "tornado.jpg",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Tornado</span> is een heel eenvoudig spel, maar je wordt er wel ongelofelijk snel zat van.</p><p>Je staat in een cirkel met alle deelnemers en je neemt om de beurt een ad fundum. Telkens het aan jou is, moet je onmiddellijk beginnen drinken. Eens je hier niet meer tot in staat bent, ben je af.</p>",
+        benodigdheden: ["drank"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 11,
+        naam: "Wodka water",
+        img: "wodkawater.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Wodka water</span> wordt als volgt gespeeld.</p><p>1 shot glas wordt gevuld met wodka en de andere met water. Hierna moet ofwel een neutraal persoon (iemand die niet meedoet de volgende ronde) de glazen van plaats wisselen of moet iedereen om zijn beurt de glazen wisselen zonder dat de anderen kijken, zodat niemand nog weet waar de wodka zit.</p><p>Vervolgens trekt iedereen het shotje binnen en kijk je elkaar allemaal in de ogen. Erna wordt er gestemd wie de wodka gedronken heeft door allemaal tegelijk te wijzen naar wie je ervan verdenkt schuldig te zijn.</p><p>Indien je het juiste hebt, moet hij/zij nog een shotje wodka drinken. Indien fout, moet iedereen buiten de beschuldigde en de echte wodkadrinker een shotje nemen.</p>",
+        benodigdheden: ["shotglaasjes", "water", "witte wodka/appeljenever/appelsap"],
+        credits: "Andrew"
     }
 ]
