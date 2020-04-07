@@ -121,5 +121,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Wodka water</span> wordt als volgt gespeeld.</p><p>1 shot glas wordt gevuld met wodka en de andere met water. Hierna moet ofwel een neutraal persoon (iemand die niet meedoet de volgende ronde) de glazen van plaats wisselen of moet iedereen om zijn beurt de glazen wisselen zonder dat de anderen kijken, zodat niemand nog weet waar de wodka zit.</p><p>Vervolgens trekt iedereen het shotje binnen en kijk je elkaar allemaal in de ogen. Erna wordt er gestemd wie de wodka gedronken heeft door allemaal tegelijk te wijzen naar wie je ervan verdenkt schuldig te zijn.</p><p>Indien je het juiste hebt, moet hij/zij nog een shotje wodka drinken. Indien fout, moet iedereen buiten de beschuldigde en de echte wodkadrinker een shotje nemen.</p>",
         benodigdheden: ["shotglaasjes", "water", "witte wodka/appeljenever/appelsap"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 12,
+        naam: "Avatar",
+        img: "avatar.png",
+        alias: "ADvatar",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Avatar</span> is een vrij leuk spel, omdat er creativiteit aan te pas komt.</p><p>Je begint het spel door elk een personage te kiezen en dit te schrijven/tekenen op een blad papier. Vervolgens mag je om de beurt een vraag stellen aan elkaar over de avatars. Dit moeten ja/nee-vragen zijn, want telkens je een vraag stelt en dit met nee wordt beantwoord, moet je een slok nemen. Indien het antwoord 'ja' is, moet de ondervraagde een slok nemen.</p><p>Je bent vrijgesteld eens je iemand anders' personage hebt kunnen raden. Als jouw personage geraden wordt, moet je zelf een ad fundum of twee shotjes sterke drank nemen en een nieuwe personage verzinnen.</p>",
+        benodigdheden: ["pen/potlood", "papiertjes"],
+        credits: "Andrew"
     }
 ]
