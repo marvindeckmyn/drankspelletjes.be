@@ -187,5 +187,49 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Bier estafette</span> is gelijkaardig aan andere estafettes.</p><p>Je verdeelt alle deelnemers in 2 of meer groepen en je probeert vervolgens per groep zo snel mogelijk bepaalde opdrachten te voltooien.</p><p>Opdrachten bij een bierestafette kunnen dingen zijn zoals om de beurt een pint ad fundum drinken of een shotje drinken en zo als eerste klaar zijn. Een andere optie is elk team een kan gevuld met bier geven en deze vervolgens zo snel mogelijk leegdrinken met je team.</p><p>Het winnende team kiest het volgende spel!</p>",
         benodigdheden: ["drank"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 18,
+        naam: "Mond toe, keelgat open",
+        img: "mondtoekeelgatopen.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Mond toe, keelgat open</span> is heel eenvoudig, maar werkt beter met spelers die al aangeschoten zijn.</p><p>Voor je begint, wordt elke speler een groente (of een woord uit een andere categorie) toegewezen. Dan kan het spel beginnen.</p><p>Nu is het belangrijk dat je je tanden niet laat zien aan de andere spelers, want vanaf dat ze je tanden kunnen zien, verlies je en moet je een glas bier of sterke drank in 1 keer leegdrinken.</p><p>De eerste speler zegt de naam van zijn groente, gevolgd door: 'roept *naam groente volgende speler*'. Dan roept de tweede speler de derde, enzovoort... Uiteindelijk zal iemand in de lach schieten of zijn tanden laten zien tijdens het zeggen van de groente.</p><p><span>Voorbeeld met 4 spelers</span></p><p>Speler A (Pompoen): 'Pompoen roept asperge'.</p><p>Speler B (Asperge): 'Asperge roept aubergine'.</p><p>Speler C (Aubergine): 'Aubergine roept komkommer'.</p><p>Speler D (Komkommer): 'Komkommer roept Pompoen'.</p><p><span>Afloop</span></p><p>Dit herhaalt zich totdat een speler zijn tanden toont en deze dus moet drinken.</p><p>Indien je te veel competitieve vrienden hebt of omgaat met mensen die niet gemakkelijk lachen, kan je het proces faciliteren op volgende manieren:</p><ul><li>Gekke bekken proberen trekken naar elkaar, terwijl je je groente zegt</li><li>Afspreken dat bij elke ronde waarbij niemand lacht, iedereeen een slok bier neemt</li></ul><p>Natuurlijk kan je zelf nog regels erbij verzinnen. Laat je verbeelding zijn werk doen!</p>",
+        benodigdheden: ["drank"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 19,
+        naam: "Bierkoning",
+        img: "bierkoning.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bierkoning</span> beslist, zoals de naam waarschijnlijk wel doet vermoeden, wie de beste zuiper is van jouw vriendengroep! Het verloopt in 3 rondes, waarbij de traagste drinker(s) steeds afvallen. Er zal snel en veel gezopen worden.</p><p><span>Ronde 1</span></p><p>De eerste ronde begint kalm. Alle spelers krijgen vijf pinten en moeten deze zo snel mogelijk leegdrinken. Je bent pas klaar wanneer al je glazen leeggedronken zijn en je je laatste pint omgekeerd op je hoofd hebt gezet (ook leeggedronken vanzelfsprekend).</p><p>Na de ronde valt iedereen, buiten 3 spelers, af. Die spelers zullen het tegen elkaar opnemen in de tweede ronde.</p><p><span>Ronde 2</span></p><p>Je zit met z'n drietjes naast elkaar met elk 2 gewone pinten en een halve liter sterk bier voor je. Hetzelfde principe van de vorige ronde geldt. Het bier moet wel in de volgorde van pint -> sterk bier -> pint gedronken worden. De traagste drinker valt weer af op het einde van deze ronde.</p><p><span>Ronde 3 (FINALE)</span></p><p>Hiervoor is even voorbereiding nodig (liefst door aanwezigen die nog nuchter zijn). Er worden 4 stoelen in een vierkant gezet met genoeg ruimte rond elke stoel om er rond te kunnen lopen. Op deze stoelen worden pintjes gezet en aangevuld indien nodig. Het kan misschien handig zijn om tussen de stoelen telkens een emmer te zetten, just in case.</p><p>De 2 finalisten beginnen tegenover elkaar bij een stoel. Het is de bedoeling een pint vanop de stoel leeg te drinken, een rondje rond de stoel te lopen en naar de volgende stoel te gaan. Je wint wanneer je de andere finalist hebt kunnen inhalen (en verliest dus als je ingehaald bent).</p>",
+        benodigdheden: ["heel veel bier", "gewone bier", "sterke bier"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 20,
+        naam: "Heet shotje",
+        img: "heetshotje.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Heet shotje</span> is eenvoudig en leuk om te spelen.</p><p>Elke ronde kies je 1 speler uit die met zijn rug naar de andere spelers zit en de muziek bedient. Wanneer de muziek begint te spelen, moet je je shotglas telkens doorgeven. Je stopt met doorgeven wanneer de muziek stopt. Wie dan het shotglaasje vast heeft, moet het leegdrinken.</p><p>Santé!</p>",
+        benodigdheden: ["shotglas"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 21,
+        naam: "Drinkgeld",
+        img: "drinkgeld.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Drinkgeld</span> is een drinkwedstrijd gebaseerd op snelheid en volume.</p><p>Een onpartijdige speler laat een muntje draaien op tafel. Simultaan beginnen de andere spelers zo snel mogelijk te drinken van hun bier. Iedereen stopt wanneer het muntje volledig stil ligt op tafel.</p><p>Degene met het bierglas die het minst vol is, wint.</p><p>Degene die wint, mag kiezen welke andere speler zijn glas volledig moet leegdrinken.</p>",
+        benodigdheden: ["muntstuk", "glazen bier van een liter"],
+        credits: "Andrew"
     }
 ]
