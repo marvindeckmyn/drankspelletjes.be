@@ -132,5 +132,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Avatar</span> is een vrij leuk spel, omdat er creativiteit aan te pas komt.</p><p>Je begint het spel door elk een personage te kiezen en dit te schrijven/tekenen op een blad papier. Vervolgens mag je om de beurt een vraag stellen aan elkaar over de avatars. Dit moeten ja/nee-vragen zijn, want telkens je een vraag stelt en dit met nee wordt beantwoord, moet je een slok nemen. Indien het antwoord 'ja' is, moet de ondervraagde een slok nemen.</p><p>Je bent vrijgesteld eens je iemand anders' personage hebt kunnen raden. Als jouw personage geraden wordt, moet je zelf een ad fundum of twee shotjes sterke drank nemen en een nieuwe personage verzinnen.</p>",
         benodigdheden: ["pen/potlood", "papiertjes"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 13,
+        naam: "Kaa gent tot je zat bent",
+        img: "kaagenttotjezatbent.png",
+        alias: "Ajax Atten",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>KAA Gent tot je zat bent</span> begint met het kiezen van een veldspeler naar keuze. Vervolgens kijk je met wat maten deze match. Telkens jouw gekozen speler de bal verovert, moet je een grote slok bier nemen. Wanneer hij de bal kwijtraakt, drink je de rest op van je pint.</p><p>Indien jouw speler scoort, mag je twee ad fundums uitdelen aan een vriend naar keuze!</p>",
+        benodigdheden: ["scherm waarop je een voetbalmatch kan kijken"],
+        credits: "Andrew"
     }
 ]
