@@ -154,5 +154,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Als je bekend bent met het spel <span>Spijkerslaan</span> zonder alcohol, is het eigenlijk hetzelfde, maar met een sanctie voor de verliezer, namelijk dat de verliezer moet drinken.</p><p>Indien je nog niet bekend bent met het spel, het gaat zo:</p><p>Er wordt een aantal nagels, gelijk aan het aantal spelers, even diep in een stuk hout geslaan. Elke speler krijgt vervolgens een nagel toegewezen en erna moet elk om de beurt op een nagel slaan. Belangrijk hierbij is dat je de nagel niet mag vasthouden, maar dat het met de losse hand moet. Zo creëer je het risico de nagel scheef te slaan.</p><p>Het is toegestaan om op andere mensen hun nagel te slaan, indien je ze wil helpen. De verliezer is vanzelfsprekend degene die als laatste zijn/haar spijker volledig in het hout krijgt.</p>",
         benodigdheden: ["boomstronk/groot stuk hout", "nagels", "hamer"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 15,
+        naam: "Vingeren",
+        img: "vingeren.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Vingeren</span> is enorm simplistisch, maar ook enorm leuk om te spelen. Je legt met alle spelers elk 1 vinger op de rand van het glas en dan kan je beginnen.</p><p>Om de beurt mag 1 van de spelers aftellen en dan een getal roepen. Iedereen beslist net voordat het getal geroepen wordt om zijn/haar vinger op het glas te houden of weg te trekken. Als het geroepen getal gelijk is aan het aantal vingers dat nog op het glas ligt, is degene die het getal riep, vrijgesteld.</p><p>Je speelt dit verder tot er nog 1 persoon over is, die dan als verliezer de volledige inhoud van het glas in 1 keer moet leegdrinken, AD FUNDUM!</p>",
+        benodigdheden: ["gevulde glas"],
+        credits: "Andrew"
     }
 ]
