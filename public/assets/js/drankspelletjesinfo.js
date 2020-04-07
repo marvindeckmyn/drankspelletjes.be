@@ -140,8 +140,19 @@ const drankspelletjes = [
         alias: "Ajax Atten",
         categorie: "Overig",
         spelers: 2,
-        uitleg: "<p><span>KAA Gent tot je zat bent</span> begint met het kiezen van een veldspeler naar keuze. Vervolgens kijk je met wat maten deze match. Telkens jouw gekozen speler de bal verovert, moet je een grote slok bier nemen. Wanneer hij de bal kwijtraakt, drink je de rest op van je pint.</p><p>Indien jouw speler scoort, mag je twee ad fundums uitdelen aan een vriend naar keuze!</p>",
+        uitleg: "<p><span>Uitleg</span></p><p><span>KAA Gent tot je zat bent</span> begint met het kiezen van een veldspeler naar keuze. Vervolgens kijk je met wat maten deze match. Telkens jouw gekozen speler de bal verovert, moet je een grote slok bier nemen. Wanneer hij de bal kwijtraakt, drink je de rest op van je pint.</p><p>Indien jouw speler scoort, mag je twee ad fundums uitdelen aan een vriend naar keuze!</p>",
         benodigdheden: ["scherm waarop je een voetbalmatch kan kijken"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 14,
+        naam: "Spijkerslaan",
+        img: "spijkerslaan.png",
+        alias: "Nagelen, Kopspijkers, Kloefkappen",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p>Als je bekend bent met het spel <span>Spijkerslaan</span> zonder alcohol, is het eigenlijk hetzelfde, maar met een sanctie voor de verliezer, namelijk dat de verliezer moet drinken.</p><p>Indien je nog niet bekend bent met het spel, het gaat zo:</p><p>Er wordt een aantal nagels, gelijk aan het aantal spelers, even diep in een stuk hout geslaan. Elke speler krijgt vervolgens een nagel toegewezen en erna moet elk om de beurt op een nagel slaan. Belangrijk hierbij is dat je de nagel niet mag vasthouden, maar dat het met de losse hand moet. Zo creëer je het risico de nagel scheef te slaan.</p><p>Het is toegestaan om op andere mensen hun nagel te slaan, indien je ze wil helpen. De verliezer is vanzelfsprekend degene die als laatste zijn/haar spijker volledig in het hout krijgt.</p>",
+        benodigdheden: ["boomstronk/groot stuk hout", "nagels", "hamer"],
         credits: "Andrew"
     }
 ]
