@@ -231,5 +231,27 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Drinkgeld</span> is een drinkwedstrijd gebaseerd op snelheid en volume.</p><p>Een onpartijdige speler laat een muntje draaien op tafel. Simultaan beginnen de andere spelers zo snel mogelijk te drinken van hun bier. Iedereen stopt wanneer het muntje volledig stil ligt op tafel.</p><p>Degene met het bierglas die het minst vol is, wint.</p><p>Degene die wint, mag kiezen welke andere speler zijn glas volledig moet leegdrinken.</p>",
         benodigdheden: ["muntstuk", "glazen bier van een liter"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 22,
+        naam: "Bussen",
+        img: "bussen.png",
+        alias: "De bus in, In de bus",
+        categorie: "Kaartspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Fase I</span></p><p><span>Bussen</span> begin je met een geschud pak kaarten.</p><p>Dan raadt de eerste persoon of de bovenste kaart zwart of rood zal zijn. Hij/zij moet drinken indien fout. Vervolgens raadt de volgende speler of de volgende kaart hoger of lager zal zijn dan deze kaart. Indien fout, drinken. De volgende speler moet dan raden of de volgende kaart tussen de twee zopas gelegde kaarten zal liggen.</p><p>Het patroon wordt waarschijnlijk al duidelijk. Telkens je fout bent, moet je drinken. Nu kijk je naar de symbolen van de drie kaarten die al op tafel liggen en gok je of het symbool van de volgende kaart al op de tafel ligt of niet.</p><p>Hierna ga je over naar de tweede fase, een vorm van de bieramide.</p><p><span>Fase II</span></p><p>Je legt een piramide van 15 kaarten (5 - 4 - 3 - 2 - 1) met de voorkant naar beneden gericht op tafel en je verdeelt de rest van de pak onder de spelers.</p><p>Hierna draai je de onderste rij om en mogen spelers, die een kaart gelijk aan 1 van deze kaarten hebben, hun kaart erop leggen. Per weggelegd kaart mogen ze ook een slok uitdelen. Dan draai je de rij van vier kaarten om en mogen de spelers per weggelegde kaart 2 slokken uitdelen, enzovoort...</p><p>Wie op het einde van het spel de meeste kaarten over heeft, moet de bus in!</p><p>In de bus moet de speler een rij zien te krijgen van 7 kaarten. Deze wordt gevormd door 6 keer te raden of de volgende kaart hoger of lager zal zijn dan die ervoor. Eens dit lukt, mag je uit de bus. Pas op, want wanneer je mist, moet je weer helemaal van in het begin starten en het aantal slokken/ad fundums drinken die de bus al lang was.</p>",
+        benodigdheden: ["pak kaarten"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 23,
+        naam: "Dronkémon",
+        img: "dronkemon.png",
+        alias: "Pokémon drankspel",
+        categorie: "Bordspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Dronkémon</span> is ganzenbord zoals je het al jaren kent, maar met een alcoholische twist. (Pokémon stijl)</p><img src='../assets/images/dronkemonuitleg.jpg' alt='Dronkémon' title='Dronkémon'/>",
+        benodigdheden: ["spelbord (afbeelding)", "shotglas", "bierglas", "dobbelstenen"],
+        credits: "Andrew"
     }
 ]

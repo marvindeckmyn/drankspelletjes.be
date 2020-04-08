@@ -375,4 +375,9 @@ h2#geenAccount {
     font-size: 2rem;
 }
 
+#uitleg img {
+    width: auto;
+    height: auto;
+}
+
 /* --- Home --- */
