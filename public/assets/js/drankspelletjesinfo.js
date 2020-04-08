@@ -253,5 +253,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Dronkémon</span> is ganzenbord zoals je het al jaren kent, maar met een alcoholische twist. (Pokémon stijl)</p><img src='../assets/images/dronkemonuitleg.jpg' alt='Dronkémon' title='Dronkémon'/>",
         benodigdheden: ["spelbord (afbeelding)", "shotglas", "bierglas", "dobbelstenen"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 24,
+        naam: "Pintjes proeven",
+        img: "pintjesproeven.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Pintjes proeven</span> is eigenlijk gewoon wat de naam inhoudt, maar het blijft een leuk idee, zeker wanneer je wil weten wie er nu echt het meest van bier kent.</p><p>Je doet om de beurt een blinddoek om en je raadt vervolgens welk bier er in je glas zit door 1 slok te nemen. De winnaar wordt vanzelfsprekend getrakteerd.</p>",
+        benodigdheden: ["Verschillende bieren"],
+        credits: "Andrew"
     }
 ]
