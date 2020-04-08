@@ -275,5 +275,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Bij <span>De mol</span> is het de bedoeling dat je op voorhand een aantal papiertjes hebt gelijk aan het aantal spelers. Je vouwt deze op en deelt deze uit.</p><p>Op 1 van deze papiertjes staat <span>De mol</span> geschreven en hij/zij is dus de mol van dit spel. Verder moet je nog de bak bier in het midden zetten met alle deelnemers er rond.</p><p>Vervolgens heb je om de beurt drie kansen om een dopje in de bierbak te gooien. Indien je ze alle drie mist, moeten alle spelers, behalve jij, drinken.</p><p>De mol moet natuurlijk proberen de anderen zo zat mogelijk te krijgen.</p><p>Wanneer iemand vals beschuldigd wordt van de mol te zijn, moet de aanklager dubbel drinken. Wanneer de mol betrapt wordt, moet deze dubbel drinken.</p>",
         benodigdheden: ["papier", "pen", "bak bier"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 26,
+        naam: "Frisbier",
+        img: "frisbier.jpg",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p>Voor <span>Frisbier</span> sta je met z'n allen in een cirkel en gooi je een frisbee rond.</p><p>Telkens je niet in staat bent om een frisbee op te vangen, krijg je een strafpunt. De eerste met 5 strafpunten moet een zevensprong drinken!</p><p><span>Opgelet</span></p><p>Een (heel) slechte worp kan je op tijd callen, waardoor je deze niet moet vangen en het strafpunt gaat naar de werper. De andere spelers en dus niet de werper of vanger beslissen dan of de call legitiem was.</p><p>Indien deze niet legitiem was, krijgt de vanger alsnog een strafpunt. Je mag wel niet callen en alsnog de frisbee proberen vangen, want wanneer je een poging doet en hem niet vangt, krijg je gegarandeerd een strafpunt.</p>",
+        benodigdheden: ["frisbee"],
+        credits: "Andrew"
     }
 ]
