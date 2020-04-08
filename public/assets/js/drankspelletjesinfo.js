@@ -264,5 +264,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Pintjes proeven</span> is eigenlijk gewoon wat de naam inhoudt, maar het blijft een leuk idee, zeker wanneer je wil weten wie er nu echt het meest van bier kent.</p><p>Je doet om de beurt een blinddoek om en je raadt vervolgens welk bier er in je glas zit door 1 slok te nemen. De winnaar wordt vanzelfsprekend getrakteerd.</p>",
         benodigdheden: ["Verschillende bieren"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 25,
+        naam: "De mol",
+        img: "demol.png",
+        alias: "Wie is de mol",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>De mol</span> is het de bedoeling dat je op voorhand een aantal papiertjes hebt gelijk aan het aantal spelers. Je vouwt deze op en deelt deze uit.</p><p>Op 1 van deze papiertjes staat <span>De mol</span> geschreven en hij/zij is dus de mol van dit spel. Verder moet je nog de bak bier in het midden zetten met alle deelnemers er rond.</p><p>Vervolgens heb je om de beurt drie kansen om een dopje in de bierbak te gooien. Indien je ze alle drie mist, moeten alle spelers, behalve jij, drinken.</p><p>De mol moet natuurlijk proberen de anderen zo zat mogelijk te krijgen.</p><p>Wanneer iemand vals beschuldigd wordt van de mol te zijn, moet de aanklager dubbel drinken. Wanneer de mol betrapt wordt, moet deze dubbel drinken.</p>",
+        benodigdheden: ["papier", "pen", "bak bier"],
+        credits: "Andrew"
     }
 ]
