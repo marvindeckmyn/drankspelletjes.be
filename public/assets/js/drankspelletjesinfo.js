@@ -286,5 +286,38 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Voor <span>Frisbier</span> sta je met z'n allen in een cirkel en gooi je een frisbee rond.</p><p>Telkens je niet in staat bent om een frisbee op te vangen, krijg je een strafpunt. De eerste met 5 strafpunten moet een zevensprong drinken!</p><p><span>Opgelet</span></p><p>Een (heel) slechte worp kan je op tijd callen, waardoor je deze niet moet vangen en het strafpunt gaat naar de werper. De andere spelers en dus niet de werper of vanger beslissen dan of de call legitiem was.</p><p>Indien deze niet legitiem was, krijgt de vanger alsnog een strafpunt. Je mag wel niet callen en alsnog de frisbee proberen vangen, want wanneer je een poging doet en hem niet vangt, krijg je gegarandeerd een strafpunt.</p>",
         benodigdheden: ["frisbee"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 27,
+        naam: "Botsen",
+        img: "botsen.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Botsen</span> probeer je om de beurt je bierdopje in de schaal te krijgen, na het minimaal 1 keer te doen botsen. Wanneer dit lukt, mag je een regel verzinnen.</p><p><span>Voorbeeld</span></p><p>Je moet een ad fundum nemen als je drie keer na elkaar mist.</p>",
+        benodigdheden: ["bierdopje (of iets anders dat kan botsen)", "schaal"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 28,
+        naam: "Bier slingeren",
+        img: "bierslingeren.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bier slingeren</span> lijkt vrij veel op een estafette.</p><p>Men begint in 2 teams met elk een stoel voor zich waarop er bierglazen van een halve liter geplaatst zijn. Vervolgens moet je 1 voor 1 je halve liter bier leegdrinken, twintig keer rond je stoel draaien en 50 meter naar de finish lopen.</p><p>Wanneer de persoon voor je bij de finish geraakt, mag jij vertrekken. Het eerste team met al zijn spelers aan de finish, wint.</p><p><span>Opgelet</span></p><p>Houd zeker rekening met het feit dat je hier veel ruimte voor nodig hebt! Het is ook altijd leuk om obstakels op het veld te leggen, zoals een leeg bierflesje dat moet opgeraapt worden.</p>",
+        benodigdheden: ["bierglazen van een halve liter", "2 stoelen", "50m loopruimte", "eventueel een bierkan"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 29,
+        naam: "Dobbeldrinken",
+        img: "dobbeldrinken.png",
+        alias: "",
+        categorie: "Dobbelspel",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p>De eerste stap na het verzamelen van de benodigdheden, is het opstellen van de tafel door op elke hoek een beker, gevuld met je eigen alcoholische drankje, te zetten. Je verdeelt je vervolgens in 2 teams, die elk aan 1 kant van de tafel staan.</p><p>Nu <span>Dobbeldrinken</span> zelf.</p><p><span>De aanval</span></p><p>Wanneer je de dobbelsteen hebt, moet je hem minstens 2,5 meter de lucht in gooien om hem vervolgens op de tafel van je tegenstander te laten vallen.</p><p>Je krijgt:</p><ul><li><span>1 punt:</span> de dobbelsteen valt op de tafel en daarna op de grond</li><li><span>2 punten:</span> de dobbelsteen valt op de tafel, raakt vervolgens de beker van 1 van je tegenstanders en valt daarna op de grond</li><li><span>3 punten:</span> de dobbelsteen valt rechtstreeks in de beker van 1 van je tegenstanders (een zinker)</li></ul><p><span>De verdediging</span></p><p>Je probeert telkens de dobbelsteen te vangen nadat hij gebotst is, om te voorkomen dat hij op de grond valt en de tegenstander een punt krijgt.</p><p>Indien de tegenstander een zinker scoort, moet je de rest van de inhoud in je beker leegdrinken en de dobbelsteen in je mond houden en uitspuwen. Wanneer je op die manier een 5 gooit, moet je nog eens drinken tot je geen 5 meer hebt.</p><p><span>Extra info</span></p><p>Het is een mogelijkheid dat je tegenstanders hun dobbelsteen te ver werpen. Dit betekent niet alleen dat ze geen punt meer kunnen scoren, maar dat jij een punt kan scoren door middel van FIFA. Een punt door FIFA wordt verkregen wanneer je deze dobbelsteen met je hoofd, knie of voet in de lucht houdt, waarna je teamgenoot hem vangt.</p><p>Telkens de bekers leeg zijn, moeten ze bijgevuld worden.</p><p>Je speelt telkens tot de 12 punten en je wisselt, elke keer er 6 punten in totaal gescoord zijn, van kant. De verliezers drinken hun beker leeg en je begint opnieuw!</p>",
+        benodigdheden: ["tafel", "4 bekers", "dobbelsteen", "genoeg ruimte om 3m hoog te gooien"],
+        credits: "Andrew"
     }
 ]
