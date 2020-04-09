@@ -319,5 +319,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>De eerste stap na het verzamelen van de benodigdheden, is het opstellen van de tafel door op elke hoek een beker, gevuld met je eigen alcoholische drankje, te zetten. Je verdeelt je vervolgens in 2 teams, die elk aan 1 kant van de tafel staan.</p><p>Nu <span>Dobbeldrinken</span> zelf.</p><p><span>De aanval</span></p><p>Wanneer je de dobbelsteen hebt, moet je hem minstens 2,5 meter de lucht in gooien om hem vervolgens op de tafel van je tegenstander te laten vallen.</p><p>Je krijgt:</p><ul><li><span>1 punt:</span> de dobbelsteen valt op de tafel en daarna op de grond</li><li><span>2 punten:</span> de dobbelsteen valt op de tafel, raakt vervolgens de beker van 1 van je tegenstanders en valt daarna op de grond</li><li><span>3 punten:</span> de dobbelsteen valt rechtstreeks in de beker van 1 van je tegenstanders (een zinker)</li></ul><p><span>De verdediging</span></p><p>Je probeert telkens de dobbelsteen te vangen nadat hij gebotst is, om te voorkomen dat hij op de grond valt en de tegenstander een punt krijgt.</p><p>Indien de tegenstander een zinker scoort, moet je de rest van de inhoud in je beker leegdrinken en de dobbelsteen in je mond houden en uitspuwen. Wanneer je op die manier een 5 gooit, moet je nog eens drinken tot je geen 5 meer hebt.</p><p><span>Extra info</span></p><p>Het is een mogelijkheid dat je tegenstanders hun dobbelsteen te ver werpen. Dit betekent niet alleen dat ze geen punt meer kunnen scoren, maar dat jij een punt kan scoren door middel van FIFA. Een punt door FIFA wordt verkregen wanneer je deze dobbelsteen met je hoofd, knie of voet in de lucht houdt, waarna je teamgenoot hem vangt.</p><p>Telkens de bekers leeg zijn, moeten ze bijgevuld worden.</p><p>Je speelt telkens tot de 12 punten en je wisselt, elke keer er 6 punten in totaal gescoord zijn, van kant. De verliezers drinken hun beker leeg en je begint opnieuw!</p>",
         benodigdheden: ["tafel", "4 bekers", "dobbelsteen", "genoeg ruimte om 3m hoog te gooien"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 30,
+        naam: "Je kent mij of shotje erbij",
+        img: "jekentmijofshotjeerbij.png",
+        alias: "Lievelings",
+        categorie: "Gokspel",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Je kent mij of shotje erbij</span> spreek je op voorhand een aantal thema's af zoals eten, drinken, weer, seizoen, hobby...</p><p>Je zet dan per thema je lievelings... op een blaadje en al deze blaadjes worden op een stapel gelegd en geschud. Je neemt dan om de beurt een blaadje en je moet raden van wie het is. Telkens je fout bent, moet je een shotje drinken en telkens je juist bent, krijg je een punt.</p><p>Wie op het einde de meeste punten heeft, mag 4 shotjes uitdelen aan spelers naar keuze.</p>",
+        benodigdheden: ["papier", "pen", "shotglaasjes"],
+        credits: "Andrew"
     }
 ]
