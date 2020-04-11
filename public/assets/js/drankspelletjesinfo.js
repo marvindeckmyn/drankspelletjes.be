@@ -396,5 +396,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Bekers flippen</span> geef je iedereen een beker en vul je alle bekers met bier.</p><p>Beide teams nemen plaats aan tegenovergestelde kanten van de tafel met hun beker voor zich. De eersten in elke rij heffen hun beker op en beginnen met drinken. Eens de beker op is, zetten ze deze omgekeerd op de rand van de tafel en proberen die om te flippen zonder de rand van de beker aan te raken. Dit kan door hard met je hand, vingers of duim tegen de bovenkant van de beker te tikken.</p><p>Het is aan de volgende wanneer je succesvol bent bij het recht krijgen van de beker op tafel.</p><p>Het team dat als eerste volledig klaar is, is de winnaar.</p>",
         benodigdheden: ["bekers", "lange tafel"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 37,
+        naam: "Leve de gouverneur",
+        img: "levedegouverneur.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Leve de gouverneur</span> is perfect wanneer je geen speelkaarten of dergelijke bij hebt. Het spel werkt als volgt.</p><p>Je begint in je cirkel tegen de klok in, omhoog te tellen tot 21. Iedereen zegt telkens 1 getal. Hij of zij die eindigt op 21 mag een regel toevoegen aan het spel die voor de rest van het spel gevolgd moet worden.</p><p>Dit hoeft niet, maar het is vaak handig de regels te baseren op een cijfer, bijvoorbeeld: 'telkens 5 wordt gezegd door een jongen, moeten alle meisjes drinken'.</p><p>Vervolgens begint het tellen opnieuw zonder dat de vorige regels wegvallen. Hoe creatiever je hierin bent, hoe beter.</p>",
+        benodigdheden: ["drank"],
+        credits: "Andrew"
     }
 ]
