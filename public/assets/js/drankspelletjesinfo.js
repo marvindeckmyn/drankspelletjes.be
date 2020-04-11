@@ -407,5 +407,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Leve de gouverneur</span> is perfect wanneer je geen speelkaarten of dergelijke bij hebt. Het spel werkt als volgt.</p><p>Je begint in je cirkel tegen de klok in, omhoog te tellen tot 21. Iedereen zegt telkens 1 getal. Hij of zij die eindigt op 21 mag een regel toevoegen aan het spel die voor de rest van het spel gevolgd moet worden.</p><p>Dit hoeft niet, maar het is vaak handig de regels te baseren op een cijfer, bijvoorbeeld: 'telkens 5 wordt gezegd door een jongen, moeten alle meisjes drinken'.</p><p>Vervolgens begint het tellen opnieuw zonder dat de vorige regels wegvallen. Hoe creatiever je hierin bent, hoe beter.</p>",
         benodigdheden: ["drank"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 38,
+        naam: "Uno",
+        img: "uno.png",
+        alias: "ZUNO, Zuipend UNO, Unootje drinken",
+        categorie: "Kaartspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>ZUNO</span> wordt gespeeld zoals <span>UNO</span>, maar met een kleine aanpassing.</p><p>Je speelt UNO volgens de officiële regels met als extra dat je een aantal slokjes/shotjes neemt, gelijk aan het aantal kaarten dat je moet bijnemen.</p><p>Zorg dus maar dat je UNO zegt op het einde of er komen 7 shotjes in jouw richting!</p>",
+        benodigdheden: ["uno-kaartspel"],
+        credits: "Andrew"
     }
 ]
