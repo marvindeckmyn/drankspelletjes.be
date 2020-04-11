@@ -341,5 +341,27 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Zeeslag</span> wordt gespeeld als het traditionele zeeslag, maar met een alcoholische twist.</p><p>Er staat echter een shotje in het midden naast de twee zeeën. Je raadt om de beurt de coördinaten waar een boot zou kunnen liggen. Als je het juist raadt, neemt de tegenstander een shotje. Indien fout, is het aan je tegenstander om te raden.</p><p><span>Let op</span></p><p>Hoe langer je speelt, hoe moeilijker het spel wordt, aangezien je de coördinaten die je al gezegd hebt, zal vergeten.</p><p>Dit spel kan ook gespeeld worden met iets zelfgemaakt (uit pizzadozen bijvoorbeeld). Dan kan je gewoon shotglaasjes op bepaalde coördinaten zetten in plaats van boten.</p>",
         benodigdheden: ["spelbord zeeslag", "shotglaasjes"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 32,
+        naam: "Shotjes en schaken",
+        img: "shotjesenschaken.png",
+        alias: "Schaakspel, Schaken, Drankschaken",
+        categorie: "Bordspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Shotjes en schaken</span> is zo leuk als het klinkt! Je combineert het favoriete spel van iedereen, schaken met de lastige bezigheid, zuipen.</p><p>Telkens een schaakstuk van je wordt uitgeschakeld, moet je 1 of meer shotjes nemen.</p><p><span>Hoeveel shotjes precies?</span></p><ul><li><span>Pion</span> - 1 shotje</li><li><span>Toren</span> - 2 shotjes</li><li><span>Paard</span> - 3 shotjes</li><li><span>Loper</span> - 3 shotjes</li><li><span>Koningin (ook een pion die koningin is geworden)</span> - 4 shotjes</li><li><span>Koning</span> - 5 shotjes</li></ul>",
+        benodigdheden: ["shotglaasjes/andere glaasjes", "schaakbord", "schaakstukken"],
+        credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 33,
+        naam: "Jenga",
+        img: "jenga.png",
+        alias: "",
+        categorie: "Bordspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p>De voorbereiding bij <span>Jenga</span> als drankspel is belangrijk qua creativiteit!</p><p>Je moet namelijk op sommige of alle (hangt af van hoe moeilijk je het wil maken) blokjes een opdracht schrijven. Het grootste deel hiervan is best gerelateerd aan drinken, maar er kunnen ook andere dingen tussen zitten. Denk bijvoorbeeld aan: 'doe een koprol'.</p><p>Wie de toren laat vallen en dus verliest, moet een pintje in één keer leegdrinken.</p>",
+        benodigdheden: ["alcoholstift", "jenga", "verschillende alcoholische dranken"],
+        credits: "Andrew"
     }
 ]
