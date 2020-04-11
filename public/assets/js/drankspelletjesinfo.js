@@ -330,5 +330,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Je kent mij of shotje erbij</span> spreek je op voorhand een aantal thema's af zoals eten, drinken, weer, seizoen, hobby...</p><p>Je zet dan per thema je lievelings... op een blaadje en al deze blaadjes worden op een stapel gelegd en geschud. Je neemt dan om de beurt een blaadje en je moet raden van wie het is. Telkens je fout bent, moet je een shotje drinken en telkens je juist bent, krijg je een punt.</p><p>Wie op het einde de meeste punten heeft, mag 4 shotjes uitdelen aan spelers naar keuze.</p>",
         benodigdheden: ["papier", "pen", "shotglaasjes"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 31,
+        naam: "Zeeslag",
+        img: "zeeslag.png",
+        alias: "Battleshots",
+        categorie: "Gokspel",
+        spelers: 2,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Zeeslag</span> wordt gespeeld als het traditionele zeeslag, maar met een alcoholische twist.</p><p>Er staat echter een shotje in het midden naast de twee zeeën. Je raadt om de beurt de coördinaten waar een boot zou kunnen liggen. Als je het juist raadt, neemt de tegenstander een shotje. Indien fout, is het aan je tegenstander om te raden.</p><p><span>Let op</span></p><p>Hoe langer je speelt, hoe moeilijker het spel wordt, aangezien je de coördinaten die je al gezegd hebt, zal vergeten.</p><p>Dit spel kan ook gespeeld worden met iets zelfgemaakt (uit pizzadozen bijvoorbeeld). Dan kan je gewoon shotglaasjes op bepaalde coördinaten zetten in plaats van boten.</p>",
+        benodigdheden: ["spelbord zeeslag", "shotglaasjes"],
+        credits: "Andrew"
     }
 ]
