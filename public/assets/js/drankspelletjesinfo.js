@@ -374,5 +374,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>Bierluster</span> is ideaal wanneer je de benodigdheden hebt voor bierpong, maar niet genoeg ruimte.</p><p>Je gaat met alle deelnemers rond een tafel zitten en iedereen zet zijn beker op de rand van de tafel. In het midden van de tafel zet je een beker, gevuld met bier.</p><p>Je botst om de beurt de pingpongbal op tafel, om hem vervolgens in een beker van je tegenstander te krijgen. Je tegenstander moet zijn beker leegdrinken en terug bijvullen als dit gelukt is. Het is dan ook aan hem/haar om verder te spelen. Iedereen moet drinken wanneer er in de middelste beker wordt gegooid. Wie de bal erin wierp, moet deze beker ook nog eens leegdrinken.</p><p>Wanneer je de bal in geen enkele beker krijgt, is het aan de persoon die het balletje als eerste vangt. Veel speelplezier!</p>",
         benodigdheden: ["bekers", "pingpongbal"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 35,
+        naam: "Lawine",
+        img: "lawine.png",
+        alias: "",
+        categorie: "Dobbelspel",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Lawine</span> zit je allemaal met je eigen glas drank aan tafel en in het midden is er een extra glas geplaatst.</p><p>Een beurt werkt als volgt. Je voegt een hoeveelheid alcohol toe aan het glas in het midden (hoeveelheid naar keuze) en je gooit dan de dobbelsteen.</p><p><span>Het volgende gebeurt afhankelijk van wat je gooit</span></p><ul><li><span>1</span> - de speler doet niets en geeft de dobbelsteen door</li><li><span>2</span> - de speler voegt nog alcohol toe aan het glas en geeft hierna de dobbelsteen door</li><li><span>3</span> - de speler drinkt de inhoud van het spelglas leeg</li><li><span>4</span> - de speler roept: 'floor' (van het engelse four -> floor) en wie als laatste naar de grond wijst, drink het glas leeg</li><li><span>5</span> - de speler kiest wie het spelglas leegdrinkt</li><li><span>6</span> - zelfde als 1 of je kiest een eigen regel op voorhand</li></ul>",
+        benodigdheden: ["glazen voor iedereen", "extra glas", "dobbelsteen"],
+        credits: "Andrew"
     }
 ]
