@@ -363,5 +363,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>De voorbereiding bij <span>Jenga</span> als drankspel is belangrijk qua creativiteit!</p><p>Je moet namelijk op sommige of alle (hangt af van hoe moeilijk je het wil maken) blokjes een opdracht schrijven. Het grootste deel hiervan is best gerelateerd aan drinken, maar er kunnen ook andere dingen tussen zitten. Denk bijvoorbeeld aan: 'doe een koprol'.</p><p>Wie de toren laat vallen en dus verliest, moet een pintje in één keer leegdrinken.</p>",
         benodigdheden: ["alcoholstift", "jenga", "verschillende alcoholische dranken"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 34,
+        naam: "Bierluster",
+        img: "bierluster.png",
+        alias: "Kroonkandelaar, Mini-bierpong",
+        categorie: "Balspel",
+        spelers: 4,
+        uitleg: "<p><span>Uitleg</span></p><p><span>Bierluster</span> is ideaal wanneer je de benodigdheden hebt voor bierpong, maar niet genoeg ruimte.</p><p>Je gaat met alle deelnemers rond een tafel zitten en iedereen zet zijn beker op de rand van de tafel. In het midden van de tafel zet je een beker, gevuld met bier.</p><p>Je botst om de beurt de pingpongbal op tafel, om hem vervolgens in een beker van je tegenstander te krijgen. Je tegenstander moet zijn beker leegdrinken en terug bijvullen als dit gelukt is. Het is dan ook aan hem/haar om verder te spelen. Iedereen moet drinken wanneer er in de middelste beker wordt gegooid. Wie de bal erin wierp, moet deze beker ook nog eens leegdrinken.</p><p>Wanneer je de bal in geen enkele beker krijgt, is het aan de persoon die het balletje als eerste vangt. Veel speelplezier!</p>",
+        benodigdheden: ["bekers", "pingpongbal"],
+        credits: "Andrew"
     }
 ]
