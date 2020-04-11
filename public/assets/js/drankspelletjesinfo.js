@@ -385,5 +385,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Lawine</span> zit je allemaal met je eigen glas drank aan tafel en in het midden is er een extra glas geplaatst.</p><p>Een beurt werkt als volgt. Je voegt een hoeveelheid alcohol toe aan het glas in het midden (hoeveelheid naar keuze) en je gooit dan de dobbelsteen.</p><p><span>Het volgende gebeurt afhankelijk van wat je gooit</span></p><ul><li><span>1</span> - de speler doet niets en geeft de dobbelsteen door</li><li><span>2</span> - de speler voegt nog alcohol toe aan het glas en geeft hierna de dobbelsteen door</li><li><span>3</span> - de speler drinkt de inhoud van het spelglas leeg</li><li><span>4</span> - de speler roept: 'floor' (van het engelse four -> floor) en wie als laatste naar de grond wijst, drink het glas leeg</li><li><span>5</span> - de speler kiest wie het spelglas leegdrinkt</li><li><span>6</span> - zelfde als 1 of je kiest een eigen regel op voorhand</li></ul>",
         benodigdheden: ["glazen voor iedereen", "extra glas", "dobbelsteen"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 36,
+        naam: "Bekers flippen",
+        img: "bekersflippen.png",
+        alias: "Bekers draaien, Bekers keren, Bierestafette (variant)",
+        categorie: "Overig",
+        spelers: 6,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Bekers flippen</span> geef je iedereen een beker en vul je alle bekers met bier.</p><p>Beide teams nemen plaats aan tegenovergestelde kanten van de tafel met hun beker voor zich. De eersten in elke rij heffen hun beker op en beginnen met drinken. Eens de beker op is, zetten ze deze omgekeerd op de rand van de tafel en proberen die om te flippen zonder de rand van de beker aan te raken. Dit kan door hard met je hand, vingers of duim tegen de bovenkant van de beker te tikken.</p><p>Het is aan de volgende wanneer je succesvol bent bij het recht krijgen van de beker op tafel.</p><p>Het team dat als eerste volledig klaar is, is de winnaar.</p>",
+        benodigdheden: ["bekers", "lange tafel"],
+        credits: "Andrew"
     }
 ]
