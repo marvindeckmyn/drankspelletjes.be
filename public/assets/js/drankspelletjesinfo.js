@@ -418,5 +418,16 @@ const drankspelletjes = [
         uitleg: "<p><span>Uitleg</span></p><p><span>ZUNO</span> wordt gespeeld zoals <span>UNO</span>, maar met een kleine aanpassing.</p><p>Je speelt UNO volgens de officiële regels met als extra dat je een aantal slokjes/shotjes neemt, gelijk aan het aantal kaarten dat je moet bijnemen.</p><p>Zorg dus maar dat je UNO zegt op het einde of er komen 7 shotjes in jouw richting!</p>",
         benodigdheden: ["uno-kaartspel"],
         credits: "Andrew"
+    },
+    {
+        toevoegingsdatum: 39,
+        naam: "Losse tongen",
+        img: "lossetongen.png",
+        alias: "",
+        categorie: "Overig",
+        spelers: 3,
+        uitleg: "<p><span>Uitleg</span></p><p>Bij <span>Losse tongen</span> trek je telkens een kaart van een pak kaarten.</p><p>Hierna moet je zo snel mogelijk om de beurt een woord schreeuwen dat begint met dezelfde letter als het teken van die kaart. Wanneer het bijvoorbeeld een kaart met een hart op is, kan je hand of hoepel zeggen.</p><p>Wie het traagst is, verliest en moet drinken. Hoe zatter je wordt, hoe meer onzin je zal uitkramen.</p>",
+        benodigdheden: ["kaartspel"],
+        credits: "Andrew"
     }
 ]
